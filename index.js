@@ -107,7 +107,7 @@ function createAndAppendTodo(todo) {
     labelContainer.appendChild(deleteContainer);
 
     let deleteContainerElement = document.createElement("i");
-    deleteContainerElement.classList.add("far", "fa-trash-alt", "delete-icon");
+    deleteContainerElement.classList.add("far","fa-trash-alt","delete-icon");
     deleteContainerElement.onclick = function() {
         onDeleteTodo(todoId);
     };
